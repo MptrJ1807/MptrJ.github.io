@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotwheels Store 2.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!-- web image icon -->
+    <link rel="icon" href="../hwicon2.png" type="image/x-icon">
+   
+    <!-- css tambahan pribadi -->
+    <link rel="stylesheet" href="../keranjang.css">
+    
+    <!-- file font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <!-- file font awesome -->
+
+  </head>
+  <body>
+    
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="market.html">
+              <img src="../hwicon2.png" alt="Logo" width="80" height="40" class="me-2">
+              HW <strong>Store</strong>
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto" role="search" >
+              <input class="form-control me-2" type="search" placeholder="Cari Barang" aria-label="Cari">
+              <button class="btn btn-secondary" type="submit"><i class="fas fa-magnifying-glass"></i></button>
+            </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="market.html"><i class="fas fa-house fs-6 me-2"></i>Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-circle-exclamation fs-6 me-2"></i>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="keranjang.html"><i class="fas fa-shopping-cart fs-6 me-2"></i>Keranjang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user-plus fs-6 me-2"></i>Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="loginform.html"><i class="fas fa-right-to-bracket fs-6 me-2"></i>Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- NAVBAR -->
+
+      <!-- BREADCRUMB -->
+
+      <div class="container bread-crumb">
+        <nav aria-label="breadcrumb" style="background-color: #fff;" class="mt-3">
+            <ol class="breadcrumb p-3">
+              <li class="breadcrumb-item"><a href="market.html" class="text-decoration-none">Beranda</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Keranjang</li>
+            </ol>
+          </nav>
+      </div>
+
+      <!-- BREADCRUMB -->
+
+      <!-- KERANJANG -->
+
+      <div class="container">
+        <div class="row row-product">
+            <div class="col">
+                <table class="table">
+                    <thead class="table-secondary">
+                      <tr>
+                        <th scope="col">Hapus</th>
+                        <th scope="col">Produk</th>
+                        <th scope="col">Gambar</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Sub Total</th>
+                      </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                      <tr>
+                        <th scope="row"><a href=""><i class="fa-solid fa-trash-can"></i></a></th>
+                        <td>'90 Honda Civic EF Merah</td>
+                        <td><img src="../produk/produk1.png" alt="" class="img-keranjang"></td>
+                        <td>Rp. 50.000</td>
+                        <td>
+                            <button class="button btn btn-dark btn-sm"><i class="fa-solid fa-minus" style="color: #ffffff;"></i></button>
+                            <span class="mx-2">1</span>
+                            <button class="button btn btn-dark btn-sm"><i class="fas fa-plus"></i></button>
+                        </td>
+                        <td>Rp. 50.000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href=""><i class="fa-solid fa-trash-can"></i></a></th>
+                        <td>'90 Honda Civic EF Merah</td>
+                        <td><img src="../produk/produk1.png" alt="" class="img-keranjang"></td>
+                        <td>Rp. 50.000</td>
+                        <td>
+                            <button class="button btn btn-dark btn-sm"><i class="fa-solid fa-minus" style="color: #ffffff;"></i></button>
+                            <span class="mx-2">1</span>
+                            <button class="button btn btn-dark btn-sm"><i class="fas fa-plus"></i></button>
+                        </td>
+                        <td>Rp. 50.000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href=""><i class="fa-solid fa-trash-can"></i></a></th>
+                        <td>'90 Honda Civic EF Merah</td>
+                        <td><img src="../produk/produk1.png" alt="" class="img-keranjang"></td>
+                        <td>Rp. 50.000</td>
+                        <td>
+                            <button class="button btn btn-dark btn-sm"><i class="fa-solid fa-minus" style="color: #ffffff;"></i></button>
+                            <span class="mx-2">1</span>
+                            <button class="button btn btn-dark btn-sm"><i class="fas fa-plus"></i></button>
+                        </td>
+                        <td>Rp. 50.000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" colspan="2">Total Keranjang Belanja</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="fw-bold">Total Harga</td>
+                        <td>Rp. 150.000</td>
+                      </tr>
+                      <tr>
+                        <td><button class="btn btn-primary btn-sm">Checkout</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+
+      <!-- KERANJANG -->
+
+     <!-- FOOTER -->
+
+    <!-- <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="" class="text-decoration-none">
+              <img src="../hoticon.png" style="width: 30px;">
+            </a>
+            <span>Copyright @2023 | Created and Developed by <a href="" class="text-decoration-none text-dark fw-bold">Putra & Ilham</a></span>
+          </div>
+  
+          <div class="col-md-6 text-end">
+            <a href="" class="text-decoration-none">
+              <img src="../assets/sosialMedia/facebook.png" class="ms-2" style="width: 32px;">
+            </a>
+            <a href="" class="text-decoration-none">
+              <img src="../assets/sosialMedia/instagram.png" class="ms-2" style="width: 30px;">
+            </a>
+            <a href="" class="text-decoration-none">
+              <img src="../assets/sosialMedia/linkedin.png" class="ms-2" style="width: 30px;">
+            </a>
+            <a href="" class="text-decoration-none">
+              <img src="../assets/sosialMedia/twitter.png" class="ms-2" style="width: 30px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+
+    <div class="container-fluid py-5 content-subscribe mt-5 text-light">
+      <div class="container">
+        <h5 class="text-center mb-4">Kunjungi Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justify-content-center">
+            <i class="fa-brands fa-facebook fs-4"></i>
+          </div>
+  
+          <div class="col-sm-1 d-flex justify-content-center">
+            <i class="fa-brands fa-instagram fs-4"></i>
+          </div>
+  
+          <div class="col-sm-1 d-flex justify-content-center">
+            <i class="fa-brands fa-whatsapp fs-4"></i>
+          </div>
+  
+          <div class="col-sm-1 d-flex justify-content-center">
+            <i class="fa-brands fa-twitter fs-4"></i>
+          </div>
+        </div>
+  
+        <h5 class="text-center mt-5">Subscribe</h5>
+        <p class="text-center font-monospace">Untuk Informasi Tentang Promo</p>
+        <div class="col-lg-6 offset-lg-3"> 
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Masukan Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-between">
+        <label>&copy;Copyright 2023 <i class="fas fa-sharp fa-solid fa-fire-flame-curved"></i> HW Store</label>
+        <label>Created By Putra, Ilham, Moh.Farhan</label>
+      </div>
+    </div>
+  
+
+
+    <!-- FOOTER -->
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

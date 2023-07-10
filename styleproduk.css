@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #2D2D2D;
+}
+
+.form-control{
+    width: 350px;
+}
+.img-kategori{
+    width: 50px;
+}
+.img-kategori:hover{
+    transform: scale(1.2);
+}
+
+.row-container{
+    background-color: #FFF;
+    margin: 0px;
+}
+
+
+.card:hover{
+    border: 3px solid #007bff;
+}
+
+.row-product{
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+.garis-produk{
+    border-bottom: 2px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.review-name{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.review-desk{
+    font-size: 14px;
+}
+
+.deskripsi{
+    height: 250px;
+}
+.review{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.content-subscribe{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bread-crumb {
+    margin-top: 76px;
+}
+
+.navbar-brand{
+    font-family: 'Mogra', cursive;
+}

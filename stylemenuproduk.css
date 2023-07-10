@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #2D2D2D;
+}
+
+.form-control{
+    width: 350px;
+}
+.img-kategori{
+    width: 50px;
+}
+.img-kategori:hover{
+    transform: scale(1.2);
+}
+
+.row-container{
+    background-color: #FFF;
+    margin: 0px;
+}
+
+
+.card:hover{
+    border: 3px solid #007bff;
+}
+
+.content-subscribe{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./heroimg/banner-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.hero {
+    margin-top: 56px;
+}
+
+.nav-link:hover{
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.navbar-brand{
+    font-family: 'Mogra', cursive;
+}
