@@ -187,7 +187,10 @@ input[type=checkbox]:hover {
     transition: 0.5s;
 }
 .navbar-brand:hover {
-    color: #03e9f4;
+    color: #fff;
     transition: 0.5s;
 }
 
+.navbar-brand {
+    color: #03e9f4;
+}
