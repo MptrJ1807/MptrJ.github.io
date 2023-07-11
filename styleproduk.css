@@ -49,10 +49,10 @@ body {
 }
 
 .deskripsi{
-    height: 250px;
+    height: 350px;
 }
 .review{
-    height: 250px;
+    height: 350px;
     overflow: scroll;
     overflow-x: hidden;
 }
