@@ -179,9 +179,7 @@ input[type=checkbox]:hover {
     zoom: 1.25;
     accent-color: #03e9f4;
 }
-input[type=checkbox]::before {
-    
-}
+
 
 
 .nav-link:hover {
